@@ -6,4 +6,4 @@ node_js:
   - iojs
   - iojs-v1.0.4
 after_success:
-  - coveralls
+  - ./node_modules/.bin/coveralls < coverage/lcov.info
