@@ -1,6 +1,8 @@
 node-aws-bluebird
 =================
 
+[![Build Status][tb]][tl] [![Coverage Status][cb]][cl]
+
 Promises support (with bluebird) for the AWS SDK for Node.js
 
 The [AWS SDK for Node][aws-sdk] is very useful, but it is extremely callback
@@ -80,3 +82,8 @@ of these methods from the [Bluebird API][bluebird-api]:
 [aws-sdk]: https://aws.amazon.com/sdk-for-node-js/
 [bluebird]: https://github.com/petkaantonov/bluebird
 [bluebird-api]: https://github.com/petkaantonov/bluebird/blob/master/API.md
+
+[tb]: https://travis-ci.org/jasonk/node-aws-bluebird.svg?branch=master
+[tl]: https://travis-ci.org/jasonk/node-aws-bluebird
+[cb]: https://coveralls.io/repos/jasonk/node-aws-bluebird/badge.svg?branch=master&service=github
+[cl]: https://coveralls.io/github/jasonk/node-aws-bluebird?branch=master
