@@ -1,11 +1,11 @@
-var Promise = require( 'bluebird' );
-var aws = module.exports = require( 'aws-sdk' );
+var Bluebird = require( 'bluebird' );
+module.exports = require( 'aws-sdk' );
 
 var proto = module.exports.Request.prototype;
 
 proto.promise = function() {
     var self = this;
-    return new Promise( function( resolve, reject ) {
+    return new Bluebird( function( resolve, reject ) {
         self.on( 'complete', function( response ) {
             if ( response.error ) {
                 reject( response.error );
