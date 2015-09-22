@@ -15,6 +15,7 @@
   "devDependencies": {
     "chai": "*",
     "chai-as-promised": "^5.1.0",
+    "coveralls": "^2.11.4",
     "istanbul": "*",
     "mocha": "*"
   }
