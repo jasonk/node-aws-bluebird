@@ -7,3 +7,6 @@ node_js:
   - iojs-v1.0.4
 after_success:
   - ./node_modules/.bin/coveralls < coverage/lcov.info
+addons:
+  code_climate:
+    repo_token: 8477e75e11b1e0f4e7e391bc65a21483312f916ba35235bd948025b6390da574

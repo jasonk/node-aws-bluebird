@@ -78,6 +78,10 @@ of these methods from the [Bluebird API][bluebird-api]:
  * done
 
 
+Author
+======
+Copyright 2015 Jason S Kohles <email@jasonkohles.com>
+
 
 [aws-sdk]: https://aws.amazon.com/sdk-for-node-js/
 [bluebird]: https://github.com/petkaantonov/bluebird
