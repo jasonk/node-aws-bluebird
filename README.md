@@ -1,7 +1,9 @@
 node-aws-bluebird
 =================
 
-[![Build Status][tb]][tl] [![Coverage Status][cb]][cl]
+[![Build Status][tb]][tl]
+[![Coverage Status][cb]][cl]
+[![Code Climate][lb]][ll]
 
 Promises support (with bluebird) for the AWS SDK for Node.js
 
@@ -91,3 +93,6 @@ Copyright 2015 Jason S Kohles <email@jasonkohles.com>
 [tl]: https://travis-ci.org/jasonk/node-aws-bluebird
 [cb]: https://coveralls.io/repos/jasonk/node-aws-bluebird/badge.svg?branch=master&service=github
 [cl]: https://coveralls.io/github/jasonk/node-aws-bluebird?branch=master
+[lb]: https://codeclimate.com/github/jasonk/node-aws-bluebird/badges/gpa.svg
+[ll]: https://codeclimate.com/github/jasonk/node-aws-bluebird
+
