@@ -2,10 +2,14 @@
   "name": "aws-bluebird",
   "version": "1.0.0",
   "description": "AWS SDK with Bluebird Promises support",
+  "keywords": [ "aws", "ec2", "sdk", "bluebird", "promises", "Amazon" ],
+  "homepage": "https://github.com/jasonk/node-aws-bluebird",
+  "bugs": "https://github.com/jasonk/node-aws-bluebird/issues",
   "scripts": {
     "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha"
   },
   "author": "Jason Kohles <email@jasonkohles.com>",
+  "repository": "jasonk/node-aws-bluebird",
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.2.3",
@@ -13,10 +17,10 @@
     "debug": "^2.2.0"
   },
   "devDependencies": {
-    "chai": "*",
-    "chai-as-promised": "^5.1.0",
-    "coveralls": "^2.11.4",
-    "istanbul": "*",
-    "mocha": "*"
+    "chai": "latest",
+    "chai-as-promised": "latest",
+    "coveralls": "latest",
+    "istanbul": "latest",
+    "mocha": "latest"
   }
 }
