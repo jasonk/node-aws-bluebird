@@ -14,7 +14,7 @@
   "dependencies": {
     "aws-sdk": "^2.2.3",
     "bluebird": "^2.10.0",
-    "debug": "^2.2.0"
+    "debug": "^3.1.0"
   },
   "devDependencies": {
     "chai": "latest",
